@@ -17,7 +17,9 @@ public class TestSibelius {
             SibeliusAPI.ForceLoadConfig(System.getProperty("user.dir"));
             value v = SibeliusAPI.ParseJson(query);
             value result = SibeliusAPI.callFunction(v);
+            System.out.println("****start output****");
             System.out.println(SibeliusAPI.ToString(result));
+            System.out.println("****end output****");
         } catch(Exception e) {
             System.out.println(e.getMessage());
         }

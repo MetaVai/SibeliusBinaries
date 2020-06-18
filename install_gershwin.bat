@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=Z:\QuantPipeline\QPPublicAPI\java\QPDemo\src\main\java\com\cloudpta\quantpipeline\api\demo\gershwin\Gershwin-1.0-SNAPSHOT-Risk-Engine.jar  -DgroupId=com.cloudpta -DartifactId=gershwin -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
